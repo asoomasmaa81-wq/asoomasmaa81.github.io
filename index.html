@@ -3,10 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقع أسماء القديري</title>
+    <title>عصماء - طالبة حاسوب</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-align: center;
+            color: white; min-height: 100vh;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        header {
+            text-align: center; padding: 60px 20px;
+            background: rgba(255,255,255,0.1); border-radius: 20px;
+            backdrop-filter: blur(10px); margin-bottom: 40px;
+        }
+        h1 { font-size: 48px; margin-bottom: 10px; text-shadow: 2px 2px 8px rgba(0,0,0,0.3); }
+        .tagline { font-size: 20px; opacity: 0.9; }
+        .card {
+            background: rgba(255,255,255,0.15); padding: 30px;
+            border-radius: 15px; margin-bottom: 25px;
+            backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);
+        }
+        h2 { font-size: 28px; margin-bottom: 15px; color: #FFD700; }
+        .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill {
+            background: rgba(255,255,255,0.2); padding: 8px 18px;
+            border-radius: 20px; font-size: 14px;
+        }
+        .project {
+            background: rgba(0,0,0,0.2); padding: 20px;
+            border-radius: 10px; margin-top: 15px;
+        }
+        footer { text-align: center; padding: 30px; opacity: 0.8; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✨ عصماء ✨</h1>
+            <p class="tagline">طالبة حاسوب | مطورة مواقع مبتدئة</p>
+        </header>
+        <div class="card">
+            <h2>📚 عني</h2>
+            <p>طالبة في تخصص الحاسوب. أتعلم تطوير المواقع ومهتمة بالبرمجة وتصميم الواجهات. هذا أول مشروع لي على GitHub Pages.</p>
+        </div>
+        <div class="card">
+            <h2>💻 المهارات</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">Git & GitHub</span>
+                <span class="skill">GitHub Pages</span>
+            </div>
+        </div>
+        <div class="card">
+            <h2>🚀 مشاريعي</h2>
+            <div class="project">
+                <h3>موقعي الشخصي</h3>
+                <p>أول موقع لي تم رفعه على GitHub Pages باستخدام HTML و CSS. يحتوي على تصميم متجاوب وتأثيرات بصرية حديثة.</p>
+            </div>
+        <div class="card">
+            <h2>📧 تواصل معي</h2>
+            <p>GitHub: @asoomasmaa81-wq</p>
+            <p>تم إنشاء هذا الموقع كجزء من تكليف مادة الحوسبة - 2026</p>
+        </div>
+        <footer>© 2026 - صُنع بـ 💜 و GitHub Pages</footer>
+    </div>
+</body>
+</html>
